@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.json({
     email: "pelznotion@gmail.com",
     current_datetime: new Date().toISOString(),
-    github_url: "https://github.com/Pelznotion",
+    github_url: "https://github.com/Pelznotion/public-apii",
   });
 });
 
